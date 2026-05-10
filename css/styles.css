@@ -243,9 +243,8 @@ section {
 }
 
 .section-heading {
+  margin-top: 0px;
   max-width: 760px;
-
-  margin-bottom: 42px;
 }
 
 h2 {
@@ -380,9 +379,13 @@ footer {
     width: 150px;
   }
 
-  .hero {
-    padding: 0 0 72px;
-  }
+.hero {
+  padding: 0 0 40px;
+}
+
+#about {
+  padding-top: 32px;
+}
 
   h1 {
     font-size: clamp(3.4rem, 18vw, 5.4rem);
