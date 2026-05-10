@@ -74,6 +74,9 @@ body::before {
   opacity: 0.14;
 }
 
+
+
+
 .container {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto;
@@ -263,6 +266,44 @@ h2 {
   color: var(--muted);
 
   font-size: 1.1rem;
+}
+
+.testflight-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1.4rem;
+  margin-bottom: 2.2rem;
+
+  padding: 0.9rem 1.4rem;
+
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.78);
+
+  border: 1px solid rgba(0, 0, 0, 0.06);
+
+  color: #1f1f1f;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+
+  backdrop-filter: blur(10px);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.testflight-button:hover {
+  transform: translateY(-1px);
+
+  background: rgba(255, 255, 255, 0.92);
+
+  box-shadow:
+    0 10px 30px rgba(88, 140, 110, 0.12);
 }
 
 /* TRB CARDS */
